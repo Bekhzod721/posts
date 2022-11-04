@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles.css"/>
+    <title>Login page</title>
+  </head>
+  <body>
+    <div class="container">
+    <header class="header">
+      <nav class="login__nav">
+        <H1 class="site__logo"><a href="./login.html">Posts</a></H1>
+        <ul class="login__nav--list">
+          <li class="login__nav--item"><a href="">Sign in</a></li>
+          <li class="login__nav--item"><a href="#login">Log in</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="login">
+      <div class="login__container  container">
+        <form class="login__form">
+          <div class="login__username">
+            <span>
+              <i class="fa fa-user"></i>
+            </span>
+            <input
+              id="login"
+              class="input-login"
+              type="text"
+              placeholder="USERNAME"
+              name="login"
+              defaultValue="kminchelle"
+            />
+          </div>
+          <div class="login__username">
+            <span><i class="fa fa-unlock"></i></span>
+            <input
+              class="input-password"
+              type="password"
+              placeholder="PASSWORD"
+              name="password"
+              defaultValue="0lelplR"
+            />
+          </div>
+
+          <button class="login__btn" type="submit">Login</button>
+          <p class="login__forgot">Forgot password?</p>
+        </form>
+      </div>
+    </section>
+    </div>
+    <script src="./login.js"></script>
+  </body>
+</html>

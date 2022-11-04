@@ -1,0 +1,227 @@
+*{
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.site__logo{
+  margin-left: 50px;
+  font-size: 32px;
+}
+
+.login__nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.login__nav--list{
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+.login__nav--item{
+  font-size: 24px;
+}
+.login__form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.container{
+  width: 1400px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.fa{
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.input-login{
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border: solid 2px;
+  font-size: 20px;
+}
+.input-password{
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: solid 2px;
+  font-size: 20px;
+}
+.login__btn{
+  padding: 10px 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: solid skyblue 2px;
+  background-color: aqua;
+} 
+
+/* P-o-s-t-s----------------------- p-a-g-e */
+.header{
+  padding-top: 20px;
+  height: 80px;
+  background-color: rgb(186, 241, 241);
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around ;
+  align-items:center ;
+}
+.nav__list{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  width: 60%;
+}
+.nav__item , .logout{
+  font-size: 24px;
+}
+
+.posts{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post__list{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around ;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1200px;
+  height: 1200px;
+  background-color: rgb(222, 212, 212);
+}
+
+.post__item{
+  margin-top: 30px;
+  padding: 15px;
+  width: 350px;
+  height: 350px;
+  background-color: rgb(139, 200, 200);
+}
+
+h2{
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+span{
+  text-align: center;
+  font-size: 18px;
+}
+
+.pagination{
+  margin-top: 40px;
+}
+
+.next{
+  margin-left: 30px;
+}
+
+.pagination-btn{
+  padding: 15px 20px;
+  background-color: deepskyblue;
+  border-radius: 10px;
+  border: solid 1px;
+}
+
+@media (max-width: 630px){
+.container{
+  width: 630px;
+}
+.login__nav--list{
+  width: 35%;
+  margin-right: 20px;
+}
+
+.post__list{
+  width: 630px;
+  height: 100%;
+  padding-bottom: 30px;
+}
+.post__item{
+  width: 300px;
+}
+.logout{
+  margin-right: 30px;
+}
+
+}
+
+@media (max-width: 370px){
+  .container{
+    width: 370px;
+  }
+  .login__nav--list{
+    width: 40%;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .login__nav--item{
+    font-size: 10px;
+  }
+  .input-login{
+    padding: 8px 16px;
+    font-size: 18px;
+  }
+  .input-password{
+    padding: 8px 16px;
+    font-size: 18px;
+  }
+  .login__btn{
+    padding: 8px 16px;
+    margin-top: 30px;
+    border-radius: 8px;
+    font-size: 18px;
+  } 
+  
+  .site__logo{
+    margin-left: 10px;
+    font-size: 24px;
+  }
+
+  .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    align-items:center ;
+  }
+  .nav__list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 60%;
+  }
+  .nav__item , .logout{
+    font-size: 16px;
+  }
+  .post__list{
+    width: 370px;
+    height: 100%;
+    padding-bottom: 30px;
+  }
+  .post__item{
+    width: 350px;
+    height: 350px;
+  }
+  .logout{
+    margin-right: 10px;
+  }
+
+
+  
+  }
